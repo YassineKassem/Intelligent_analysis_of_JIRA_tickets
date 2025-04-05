@@ -1,4 +1,9 @@
-# Ajouter les fichiers contenant des secrets à .gitignore
-*.csv
+
 # Ignorer le répertoire venv
 .venv/
+
+# Ignore all CSV files
+*.csv
+
+# Ignore all cache folders (recursively)
+**/cache/

@@ -31,3 +31,9 @@ Normalisation : Uniformiser les majuscules/minuscules si le modèle ne le fait p
 
 Détection de langue (si multilangue).
 Mais évitez une suppression agressive des stop words !
+
+En Résumé
+Type de Modèle	Prétraitement Nécessaire ?
+DeepSeek, BERT, etc.	Minimal (sauf besoins spécifiques).
+Word2Vec, GloVe	Oui (stop words, lemme, etc.).
+TF-IDF / Sac-de-Mots	Oui (nettoyage important).
