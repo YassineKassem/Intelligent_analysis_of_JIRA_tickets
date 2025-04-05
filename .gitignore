@@ -7,3 +7,4 @@
 
 # Ignore all cache folders (recursively)
 **/cache/
+**/cache1/
